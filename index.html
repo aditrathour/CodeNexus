@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNexus - Fuel Your Dev Flow</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header class="main-header page-content">
+        <div class="logo">CodeNexus</div>
+        <nav>
+            <a href="#tools">Tools</a>
+            <a href="#showcase">Showcase</a>
+            <a href="#how-it-works">How It Works</a>
+        </nav>
+        <a href="#" class="cta-button secondary-cta">Sign In</a>
+    </header>
+
+    <main class="page-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-headline">Build, Debug, and Ship Faster</h1>
+                <p class="hero-subheadline">Fuel Your Dev Flow with CodeNexus, a suite of generative AI tools designed to accelerate your development workflow.</p>
+                <div class="hero-cta-group">
+                    <a href="#tools" class="cta-button primary-cta">Start Generating</a>
+                    <a href="#tools" class="cta-button secondary-cta">Explore Tools</a>
+                </div>
+            </div>
+            <div class="hero-animation-preview" aria-hidden="true">
+                <!-- Interactive sparkles will be generated here by CSS/JS -->
+            </div>
+        </section>
+
+        <section id="tools" class="tools-section">
+            <h2>A Full Suite of Developer Tools</h2>
+            <div class="tools-grid">
+                <button class="tool-card" data-tool="text" aria-controls="text-generator-modal">
+                     <div class="tool-icon" style="background-color: #fce8e6; color: #ea4335;">💻</div>
+                    <h3>Code Generator</h3>
+                    <p>Describe functions, classes, or components, and let AI write the boilerplate.</p>
+                </button>
+                <button class="tool-card" disabled title="Coming Soon!">
+                    <div class="tool-icon" style="background-color: #f3e8fd; color: #8a2be2;">🐞</div>
+                    <h3>Bug Squasher</h3>
+                    <p>Paste your broken code and get instant analysis, fixes, and explanations.</p>
+                </button>
+                 <button class="tool-card" disabled title="Coming Soon!">
+                     <div class="tool-icon" style="background-color: #e8f0fe; color: #4285f4;">💡</div>
+                    <h3>Code Explainer</h3>
+                    <p>Understand complex code snippets with simple, natural language explanations.</p>
+                </button>
+                <button class="tool-card" disabled title="Coming Soon!">
+                    <div class="tool-icon" style="background-color: #e6f4ea; color: #34a853;">🎨</div>
+                    <h3>UI Mockup Generator</h3>
+                    <p>Turn text descriptions into high-fidelity UI mockups and component code.</p>
+                </button>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works-section">
+            <h2>How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                    </div>
+                    <h3>1. Describe Your Task</h3>
+                    <p>Use natural language to tell the AI what code you need to write or debug.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9.09 9-.42 3.51c-.13.91.43 1.59 1.33 1.59s1.46-.68 1.33-1.59L11 9"/></svg>
+                    </div>
+                    <h3>2. Generate & Refine</h3>
+                    <p>Our AI model generates multiple options for you to choose from and refine.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                    </div>
+                    <h3>3. Integrate & Ship</h3>
+                    <p>Copy the generated code into your projects and accelerate your workflow.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="showcase" class="showcase-section">
+            <h2>From Prompt to Production</h2>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop" alt="Code on a screen">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=600&auto=format&fit=crop" alt="Close up of HTML code">
+                <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=600&auto=format&fit=crop" alt="Laptop with code and diagrams">
+                <img src="https://images.unsplash.com/photo-1618477388954-7852f32655ec?q=80&w=600&auto=format&fit=crop" alt="Developer working at a desk with multiple monitors">
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="main-footer-container page-content">
+        <div class="footer-content">
+            <div class="logo">CodeNexus</div>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Developers</a>
+                <a href="#">Blog</a>
+            </div>
+            <p class="copyright">&copy; 2024 Google. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="text-generator-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="visibility: hidden;">
+        <div class="modal-content">
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <h2 id="modal-title">Code Generator</h2>
+            <p class="modal-subtitle">Describe the code you need, and let our AI build it for you.</p>
+            <form>
+                <textarea id="prompt-input" placeholder="e.g., A Python function to fetch data from an API and parse the JSON response." required rows="4"></textarea>
+                <button type="submit" class="cta-button primary-cta">Generate</button>
+            </form>
+            <div class="modal-result-wrapper">
+                <h3>Result:</h3>
+                <div class="modal-result" aria-live="polite">
+                    Your generated code will appear here.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/genai": "https://esm.sh/@google/genai@^0.7.0"
+        }
+      }
+    </script>
+    <script type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
